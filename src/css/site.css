@@ -12,3 +12,33 @@
 @import "header.css";
 @import "footer.css";
 @import "highlight.css";
+
+.hidden {
+  display: none;
+}
+
+.switch {
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #000;
+  display: inline-block;
+}
+
+.switch--item {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.switch--item:not(:first-child) {
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.switch--item.selected {
+  background-color: #000;
+  color: #fff;
+}
