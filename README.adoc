@@ -1,4 +1,4 @@
-= Antora Default UI
+= Antora UI for AeroGear
 // Settings:
 :experimental:
 :hide-uri-scheme:
@@ -20,7 +20,7 @@
 
 Based on https://gitlab.com/antora/antora-ui-default
 
-== Use the Default UI
+== Use the AeroGear UI
 
 If you want to use this UI for your Antora-generated site, add the following UI configuration to your playbook:
 
@@ -29,6 +29,9 @@ If you want to use this UI for your Antora-generated site, add the following UI 
 ui:
   bundle: https://github.com/aerogear/antora-ui/raw/master/build/ui-bundle.zip
 ----
+
+See link:https://github.com/aerogear/mobile-docs[Mobile Docs] for more information.
+
 
 Read on to learn how to use your own build of the default UI.
 
