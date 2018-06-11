@@ -7,8 +7,9 @@ footer.footer {
 
 .footer p {
   margin: 0.5rem 0;
+  color: #e4e4e4;
 }
 
 .footer a {
-  color: #5d5d5d;
+  color: #e4e4e4;
 }

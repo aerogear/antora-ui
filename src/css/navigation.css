@@ -64,11 +64,11 @@
 .navbar-brand {
   background-image: url("/_/img/logo.png");
   background-repeat: no-repeat;
-  background-position: 15px top;
+  background-position: 0 0;
   background-size: 112px 70px;
   cursor: pointer;
   width: 127px;
-  margin: 7px 15px 0 0;
+  margin: 7px 15px 0 15px;
   text-indent: -99999px;
   -webkit-transition: none;
   -moz-transition: none;
@@ -78,5 +78,9 @@
   padding: 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 50px;
+  height: 35px !important;
+}
+
+.navbar-brand:hover {
+  background-position: 0 100%;
 }
