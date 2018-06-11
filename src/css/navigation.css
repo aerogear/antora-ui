@@ -60,3 +60,23 @@
   flex-direction: column;
   height: inherit;
 }
+
+.navbar-brand {
+  background-image: url("/_/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 15px top;
+  background-size: 112px 70px;
+  cursor: pointer;
+  width: 127px;
+  margin: 7px 15px 0 0;
+  text-indent: -99999px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
