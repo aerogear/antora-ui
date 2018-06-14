@@ -1,5 +1,5 @@
 :root {
-  --color-text: #222;
+  --color-text: rgba(0, 0,, 0, 0.65);
   --color-navbar-bg: #4296b4;
   --color-navbar-bg-focus: #000;
   --color-navbar-text: #fff;
@@ -18,7 +18,7 @@ body {
 
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.1em;
   text-size-adjust: 100%;
 }
