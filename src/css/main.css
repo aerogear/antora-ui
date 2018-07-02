@@ -1,12 +1,50 @@
+body {
+  font-size: 16px;
+}
+
+.main-wrapper {
+  font-size: 1.1em;
+  display: flex;
+  margin-top: 50px;
+}
+
+.main {
+  flex: auto;
+  /* min-width: 0 required for flexbox to constrain overflowing elements */
+  min-width: 0;
+}
+
+.main-wrapper .navigation {
+  top: 50px;
+}
+
+.main-wrapper .main .toolbar {
+  top: 50px;
+}
+
 @media (min-width: 1024px) {
   .main-wrapper {
-    display: flex;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-wrapper {
+    margin-top: 92px;
   }
 
-  .main {
-    flex: auto;
-    /* min-width: 0 required for flexbox to constrain overflowing elements */
-    min-width: 0;
+  .main-wrapper .navigation {
+    top: 92px;
+  }
+
+  .main-wrapper .main .toolbar {
+    top: 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    margin-top: 50px;
   }
 
   .main-wrapper .navigation {

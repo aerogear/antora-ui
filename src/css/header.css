@@ -8,6 +8,7 @@ html.is-clipped--navbar {
 
 .navbar {
   border: none;
+  border-radius: unset;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0;
   margin-bottom: 0;
 }
@@ -16,22 +17,11 @@ html.is-clipped--navbar {
   background-color: #2e6980;
 }
 
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-
 .navbar .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-@media (min-width: 768px) {
-  .navbar .container {
-    width: 750px;
-  }
 }
 
 @media (min-width: 992px) {
