@@ -1,15 +1,54 @@
 footer.footer {
-  font-size: 0.85rem;
-  background-color: #2e6980;
-  color: #8e8e8e;
-  padding: 0.5rem 1rem;
+  background: #2e6980;
+  color: #a7c9d9;
+  padding: 60px 0;
+  font-size: 16px;
+  line-height: 1.42857143;
 }
 
-.footer p {
-  margin: 0.5rem 0;
-  color: #e4e4e4;
+.footer h5 {
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
 }
 
 .footer a {
-  color: #e4e4e4;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .follow {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.footer .follow p {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 10px 0 0;
+  margin: 0;
+}
+
+.footer .follow li {
+  margin-bottom: 0;
+}
+
+.footer .follow ul {
+  margin-bottom: 11px;
+}
+
+.redhat {
+  background: #214a5a;
+  padding: 60px 0;
+}
+
+.redhat .text-center {
+  margin-bottom: 10px;
 }
