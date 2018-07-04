@@ -55,3 +55,7 @@
 img {
   border: 1px solid #aaa;
 }
+
+.redhat img {
+  border: none;
+}
