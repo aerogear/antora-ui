@@ -18,7 +18,7 @@
 .switch {
   display: inline-block;
   background: #fff;
-  border-radius: 10px;
+  width: 100%;
 }
 
 .switch--item {
@@ -46,4 +46,8 @@
   padding-right: 15px;
   margin-top: -15px;
   margin-bottom: -9px;
+}
+
+.img {
+  border: 1px solid #aaa;
 }
