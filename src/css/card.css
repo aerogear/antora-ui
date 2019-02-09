@@ -1,0 +1,54 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card-grid {
+  width: 100%;
+}
+
+.card-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-wrap {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+@media (min-width: 900px) {
+  .card-wrap {
+    width: 50%;
+  }
+}
+
+@media (min-width: 920px) {
+  .card-wrap {
+    width: 25%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.card> div {
+  padding: 0 1em;
+}

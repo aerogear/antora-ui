@@ -44,6 +44,6 @@ gulp.task('preview', ['build:preview'], () =>
   })
 )
 
-gulp.task('pack', ['build', 'lint'], () => pack(destDir, buildDir, bundleName))
+gulp.task('pack', ['build'], () => pack(destDir, buildDir, bundleName))
 
 gulp.task('default', ['build'])
