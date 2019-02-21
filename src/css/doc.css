@@ -11,6 +11,10 @@
   }
 }
 
+.doc h4 {
+  font-size: 20px;
+}
+
 .doc h1,
 .doc h2,
 .doc h3,
@@ -258,7 +262,7 @@
 .doc p,
 .doc .tableblock,
 .doc .content {
-  hyphens: auto;
+  hyphens: none;
 }
 
 /*
